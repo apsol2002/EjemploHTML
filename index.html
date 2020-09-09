@@ -1,12 +1,30 @@
-git init
+$git init
 
-git status
-git status -s
+$git status
+$git status -s
 
 $ git add index.html
 
 
-  git config --global user.email "apsol2002@gmail.com"
-  git config --global user.name "apsol"
+  $git config --global user.email "apsol2002@gmail.com"
+  $git config --global user.name "apsol"
+
+
+git status -s
+//antes de hacer un COMMIT se debe agregar (add) nuevamente los archivos al area de trabajo..
+$ git add index.html
+$ git commit -m "Segunda instantantania del index.html"
+
+// como ver cada VERSION de respaldo generados ...
+  $git log  
+  $git log --oneline
+
+// restaurar a versiones anteriores ... 
+$git reset --hard  07bf9a5 -> (CODIGO INSTANTANIA)
+
+// hacer in seguimiento a todo un proyecto 
+  $ git add .
+
+
 
 
